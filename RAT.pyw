@@ -9,6 +9,7 @@ import ctypes
 import winreg as _winreg
 
 class TCPClient:
+    
     def __init__(self, host, port, **kwargs):
         self.sHost = host
         self.iPort = port
