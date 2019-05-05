@@ -38,7 +38,7 @@ class exploit(TCPClient):
 
     def __init__(self, **kwargs):
         self.CMD                   = r"C:\Windows\System32\cmd.exe"
-        self.FOD_HELPER             = r'C:\Windows\System32\fodhelper.exe'
+        self.FOD_HELPER            = r'C:\Windows\System32\fodhelper.exe'
         self.PYTHON_CMD            = "python"
         self.REG_PATH              = 'Software\\Classes\\ms-settings\\shell\\open\\command'
         self.DELEGATE_EXEC_REG_KEY = 'DelegateExecute'
