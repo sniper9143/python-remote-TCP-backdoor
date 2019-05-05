@@ -1,11 +1,13 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+
 import socket
 import os
 import sys
 import subprocess
 import ctypes
 import winreg as _winreg
-#!/usr/bin/env python
-# -*- coding: utf-8 -*-
+
 class TCPClient:
     def __init__(self, host, port, **kwargs):
         self.sHost = host
